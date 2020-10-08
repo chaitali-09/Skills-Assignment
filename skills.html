@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="skills.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/50aed95520.css">
+<script src="skills.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+   <div class="skills-list">
+           <p>select skills</p>
+           <form>
+           <input type="search" value="" placeholder="search"/>
+    <select id="selectSkills" on="select()">
+           <option value="" > HTML</option>
+           <option value="" > CSS</option>
+           <option value="" > JAVASCRIPT</option>
+           <option value=""> HTML</option>
+           <option value=""> python</option>
+           <option value=""> SQL</option>
+           <option value=""> JAVA</option>
+           <option value=""> C++</option>
+       </select>
+       </form>
+   </div>
+    </div>
+    <div class="btn">
+    <button type="button" onclick="select()"> <i class="fa fa-arrow-left" aria-hidden="true"></i> </button>
+    <button type="button "  onclick="select()"> <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+</div>
+    <div class="right-section">
+        <p>selected skills</p>
+        <form>
+            <input type="search" value="" placeholder="search"/>
+       <select id="addSkills">
+           <option > Add skills</option> 
+           <option > </option> 
+           <option ></option> 
+           <option > </option> 
+       </select>
+    </form>
+    </div>
+</div>
+
+</body>
+</html>
