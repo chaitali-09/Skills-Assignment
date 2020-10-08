@@ -1,0 +1,41 @@
+.container {
+    width: 80%;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid;
+    display: inline-flex;
+}
+.left-section {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 0 auto;
+    margin: 100px 100px;
+    text-align: center;
+}
+.right-section {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 0 auto;
+    margin: 100px 100px;
+    text-align: center;
+}
+form input {
+    margin-bottom: 10px;
+}
+#selectSkills {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.btn {
+   margin-top: 200px;
+   margin-right: 20px;
+}
+.fa-arrow-left {
+    padding: 10px;
+    color: red;
+}
+.fa-arrow-right {
+    padding: 10px;
+}
